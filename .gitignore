@@ -60,3 +60,23 @@ venv/
 # Python packaging
 *.egg-info
 build/
+
+# Ignore Python virtual environments
+.venv/
+basi/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore build artifacts
+dist3/
+build/
+*.so
+*.o
+
+# Ignore Conan cache folders if any
+conan/
+
+# Ignore log files
+*.log
